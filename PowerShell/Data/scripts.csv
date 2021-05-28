@@ -1,0 +1,213 @@
+Script,Description
+add-firewall-rules.ps1, adds firewall rules to the given executables (needs admin rights)
+add-memo.ps1, adds the given memo text to $HOME/Memos.csv
+cd-desktop.ps1, go to the user's desktop folder
+cd-docs.ps1, go to the user's documents folder
+cd-downloads.ps1, go to the user's downloads folder
+cd-dropbox.ps1, go to the user's Dropbox folder
+cd-home.ps1, go to the user's home folder
+cd-music.ps1, go to the user's music folder
+cd-onedrive.ps1, go to the user's OneDrive folder
+cd-pics.ps1, go to the user's pictures folder
+cd-recycle-bin.ps1, go to the user's recycle bin folder
+cd-repos.ps1, go to the user's Git repositories folder
+cd-root.ps1, go to the root directory (C: on Windows)
+cd-scripts.ps1, go to the PowerShell Scripts folder
+cd-up.ps1, go one directory level up
+cd-up2.ps1, go two directory levels up
+cd-up3.ps1, go three directory levels up
+cd-up4.ps1, go four directory levels up
+cd-videos.ps1, go to the user's videos folder
+check-cpu-temp.ps1, checks the CPU temperature
+check-dns-resolution.ps1, checks the DNS resolution with frequently used domain names
+check-drive-space.ps1, checks the given drive for free space left
+check-file-system.ps1, checks the validity of the file system (needs admin rights)
+check-health.ps1, checks the system health
+check-ipv4-address.ps1, checks the given IPv4 address for validity
+check-ipv6-address.ps1, checks the given IPv6 address for validity
+check-mac-address.ps1, checks the given MAC address for validity
+check-ping.ps1, checks the ping latency to the internet
+check-swap-space.ps1, checks the swap space for free space left
+check-symlinks.ps1, checks every symlink in the given directory tree
+check-weather.ps1, checks the current weather for critical values
+check-windows-system-files.ps1, checks the validity of the Windows system files 
+check-xml-file.ps1, checks the given XML file for validity
+cherry-picker.ps1, cherry-picks a Git commit into multiple branches
+clean-repo.ps1, cleans the current/given Git repository from untracked files (including submodules)
+clean-repos.ps1, cleans all Git repositories under the current/given directory from untracked files (including submodules)
+clear-recycle-bin.ps1, removes the content of the recycle bin folder (can not be undo!)
+clone-repos.ps1, clones well-known Git repositories
+close-calculator.ps1, closes the calculator program gracefully
+close-chrome.ps1, closes Google Chrome gracefully
+close-cortana.ps1, closes Cortana gracefully
+close-edge.ps1, closes Microsoft Edge gracefully
+close-file-explorer.ps1, closes Microsoft File Explorer gracefully
+close-program.ps1, closes the given program gracefully
+close-system-settings.ps1, closes the System Settings gracefully
+close-thunderbird.ps1, closes Mozilla Thunderbird gracefully
+close-vlc.ps1, closes the VLC media player gracefully
+close-windows-terminal.ps1, closes Windows Terminal gracefully
+configure-git.ps1, sets up the Git user configuration
+convert-csv2txt.ps1, converts the given CSV file into a text list
+convert-mysql2csv.ps1, converts the MySQL database table to a CSV file
+convert-sql2csv.ps1, converts the SQL database table to a CSV file
+convert-txt2wav.ps1, converts text into a audio .WAV file
+create-branch.ps1, creates a new branch in the current/given Git repository 
+create-shortcut.ps1, creates a shortcut
+create-symlink.ps1, creates a symbolic link
+create-tag.ps1, creates a new tag in the current/given Git repository 
+daily-tasks.sh, execute PowerShell scripts automatically as daily tasks (Linux only)
+decrypt-file.ps1, decrypts the given file
+display-time.ps1, displays the current time for 10 seconds by default
+download-dir.ps1, downloads a directory tree from the given URL
+download-file.ps1, downloads a file from the given URL
+edit.ps1, edits the given file with the built-in text editor
+enable-crash-dumps.ps1, enables the writing of crash dumps
+enable-god-mode.ps1, enables the god mode (adds a new icon to the desktop)
+enable-ssh-client.ps1, enables the SSH client (needs admin rights)
+enable-ssh-server.ps1, enables the SSH server (needs admin rights)
+encrypt-file.ps1, encrypts the given file
+fetch-repo.ps1, fetches updates for the current/given Git repository (including submodules)
+fetch-repos.ps1, fetches updates for all Git repositories under the current/given directory (including submodules)
+generate-qrcode.ps1, generates a QR code
+hibernate.ps1, enables hibernate mode for the local computer (needs admin rights)
+inspect-exe.ps1, prints basic information of the given executable file
+install-google-chrome.ps1, installs the Google Chrome browser
+introduce-powershell.ps1, introduces PowerShell to new users
+list-aliases.ps1, lists all PowerShell aliases 
+list-anagrams.ps1, lists all anagrams of the given word
+list-automatic-variables.ps1, lists the automatic variables of PowerShell 
+list-branches.ps1, lists all branches in the current/given Git repository 
+list-cheat-sheet.ps1, lists the PowerShell cheat sheet
+list-city-weather.ps1, lists the current weather of cities worldwide (east to west)
+list-commits.ps1, lists all commits in the current/given Git repository 
+list-clipboard.ps1, lists the contents of the clipboard
+list-credits.ps1, shows the credits
+list-dir.ps1, lists the directory content (formatted in columns)
+list-dir-tree.ps1, lists the directory tree content 
+list-drives.ps1, lists all drives
+list-environment-variables.ps1, lists all environment variables
+list-emojis.ps1, lists the emojis of Unicode 13.0
+list-empty-dirs.ps1, lists empty subfolders within the given directory tree
+list-empty-files.ps1, lists empty files within the given directory tree
+list-files.ps1, lists all files in the given folder and also in every subfolder
+list-fritzbox-calls.ps1, lists the FRITZ!Box calls
+list-fritzbox-devices.ps1, lists FRITZ!Box's known devices 
+list-hidden-files.ps1, lists hidden files within the given directory tree
+list-installed-apps.ps1, lists the installed Windows Store apps
+list-installed-software.ps1, lists the installed software (except Windows Store apps)
+list-latest-tag.ps1, lists the latest tag on the current branch in a Git repository
+list-memos.ps1, lists the memos at $HOME/Memos.csv
+list-unused-files.ps1, lists unused files in a directory tree
+list-cmdlets.ps1, lists the PowerShell cmdlets
+list-earthquakes.ps1, lists earthquakes with magnitude >= 6.0 for the last 30 days
+list-modules.ps1, lists the PowerShell modules
+list-mysql-tables.ps1, lists the MySQL server tables
+list-network-shares.ps1, lists the network shares of the local computer
+list-news.ps1, lists the latest news
+list-os-releases.ps1, lists operating system releases and download URL 
+list-os-updates.ps1, lists operating system updates
+list-printers.ps1, lists all printer known to the computer
+list-processes.ps1, lists the local computer processes
+list-profiles.ps1, lists your PowerShell profiles
+list-random-passwords.ps1, prints a list of random passwords
+list-random-pins.ps1, prints a list of random PIN's
+list-recycle-bin.ps1, lists the content of the recycle bin folder
+list-scripts.ps1, lists all PowerShell scripts in this repository
+list-services.ps1, lists the services on the local computer
+list-sql-tables.ps1, lists the SQL server tables
+list-submodules.ps1, lists the submodules of the current/given Git repository
+list-system-info.ps1, lists system information on the local computer
+list-tags.ps1, lists all tags in the current/given Git repository 
+list-tasks.ps1, lists all Windows scheduler tasks
+list-timezone.ps1, lists the current time zone details
+list-timezones.ps1, lists all time zones available 
+list-user-groups.ps1, lists the user groups on the local computer
+list-weather.ps1, lists the hourly weather 
+list-workdir.ps1, lists the current working directory
+locate-city.ps1, prints the geographic location of the given city
+locate-ipaddress.ps1, prints the geographic location of the given IP address
+locate-zip-code.ps1, prints the geographic location of the given zip-code
+MD5.ps1, prints the MD5 checksum of the given file
+make-install.ps1, installs built executables and libs to the installation directory
+make-repo.ps1, builds the current/given Git repository 
+make-repos.ps1, builds all Git repositories under the current/given directory
+moon.ps1, prints the current moon phase
+mute-audio.ps1, mutes audio
+next-joke.ps1], gets the next random Juck Norris joke
+open-browser.ps1, starts the default Web browser
+open-calculator.ps1, starts the calculator program
+open-email-client.ps1, starts the default email client
+open-file-explorer.ps1, starts the Microsoft File Explorer
+open-recycle-bin.ps1, starts the File Explorer with the recycle bin folder
+play-beep.ps1, plays a beep sound
+play-files.ps1, plays the given audio files
+play-mission-impossible.ps1, plays the Mission Impossible theme
+play-m3u.ps1, plays the given playlist (M3U file format)
+play-mp3.ps1, plays the given sound file (MP3 file format)
+play-super-mario.ps1, plays the Super Mario Intro
+play-the-imperial-march.ps1, plays the Imperial March (Star Wars)
+poweroff.ps1, halts the local computer (needs admin rights)
+pull-repo.ps1, pulls updates for the current/given Git repository (including submodules)
+pull-repos.ps1, pulls updates for all Git repositories under the current/given directory (including submodules)
+query-smart-data.ps1, queries the S.M.A.R.T. data of your HDD/SSD's and saves it to the current/given directory
+new-email.ps1, starts the default email client to write a new email
+reboot.ps1, reboots the local computer (needs admin rights)
+reboot-fritzbox.ps1, reboots the FRITZ!box device
+remove-empty-dirs.ps1, removes empty subfolders within the given directory tree
+search-filename.ps1, searches the directory tree for filenames by given pattern 
+search-files.ps1, searches the given pattern in the given files
+scan-ports.ps1, scans the network for open/closed ports
+send-email.ps1, sends an email message
+send-tcp.ps1, sends a TCP message to the given IP address and port
+send-udp.ps1, sends a UDP datagram message to the given IP address and port
+set-profile.ps1, updates your PowerShell user profile
+set-timer.ps1, sets a timer for a countdown
+set-wallpaper.ps1, sets the given image as wallpaper
+SHA1.ps1, prints the SHA1 checksum of the given file
+SHA256.ps1, prints the SHA256 checksum of the given file
+simulate-matrix.ps1, simulates the Matrix (fun)
+simulate-presence.ps1, simulates the human presence against burglars
+speak-checklist.ps1, speaks the given checklist by text-to-speech (TTS)
+speak-countdown.ps1, starts a countdown by text-to-speech (TTS)
+speak-date.ps1, speaks the current date by text-to-speech (TTS)
+speak-english.ps1, speaks the given text with an English text-to-speech (TTS) voice
+speak-epub.ps1, speaks the content of the given Epub file by text-to-speech (TTS)
+speak-file.ps1, speaks the content of the given text file by text-to-speech (TTS)
+speak-german.ps1, speaks the given text with a German text-to-speech (TTS) voice
+speak-joke.ps1, speaks the next joke by text-to-speech (TTS)
+speak-test.ps1, performs a speak test by text-to-speech (TTS)
+speak-text.ps1, speaks the given text by text-to-speech (TTS)
+speak-time.ps1, speaks the current time by text-to-speech (TTS)
+switch-branch.ps1, switches the branch in the current/given Git repository (including submodules)
+switch-shelly1.ps1, switches a Shelly1 device in the local network
+sync-repo.ps1, synchronizes a Git repository by push & pull (including submodules)
+take-screenshot.ps1, takes a single screenshot
+take-screenshots.ps1, takes multiple screenshots
+translate-file.ps1, translates the given text file into another language
+translate-files.ps1, translates the given text files into any supported language
+translate-text.ps1, translates the given text into other languages
+turn-volume-up.ps1, turns the audio volume up (+10% by default)
+turn-volume-down.ps1, turns the audio volume down (-10% by default)
+unmute-audio.ps1, unmutes audio
+upload-file.ps1, uploads the local file to the given FTP server
+voice-control.ps1, executes the PowerShell scripts by voice
+wakeup.ps1, sends a magic packet to the given computer, waking him up
+weather.ps1, prints the current weather forecast
+weather-report.ps1, prints the local weather report
+what-is.ps1, prints a description of the given abbreviation
+write-animated.ps1, writes animated text
+write-big.ps1, writes the given text in big letters
+write-blue.ps1, writes the given text in a blue foreground color
+write-braille.ps1, writes the given text in Braille
+write-green.ps1, writes the given text in a green foreground color
+write-lowercase.ps1, writes the given text in lowercase letters
+write-marquee.ps1, writes the given text as marquee
+write-morse-code.ps1, writes the given text in Morse code
+write-motd.ps1, writes the message of the day (MOTD)
+write-red.ps1, writes the given text in a red foreground color
+write-rot13.ps1, encodes or decodes the given text with ROT13
+write-typewriter.ps1, writes the given text with the typewriter effect
+write-uppercase.ps1, writes the given text in uppercase letters
+write-vertical.ps1, writes the given text in vertical direction
+zip-dir.ps1, creates a zip archive of the given directory
